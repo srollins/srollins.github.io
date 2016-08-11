@@ -18,11 +18,9 @@ a:hover {
 	color: #00543C
 }
 
-
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+.jumbotronwidth
+{
+	max-width:100%;
 }
 
 /* http://stackoverflow.com/questions/29874274/bootstrap-table-how-to-remove-all-borders-from-table */

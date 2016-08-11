@@ -19,15 +19,29 @@ a:hover {
 }
 
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 /* http://stackoverflow.com/questions/29874274/bootstrap-table-how-to-remove-all-borders-from-table */
 .table th, .table td, .table {
-    border-top: none !important;
-    border-left: none !important;
-    border-bottom: none !important;
+	border-top: none !important;
+	border-left: none !important;
+	border-bottom: none !important;
 }
 .fixed-table-container {
-    border:0px;
-    border-bottom: none !important;
+	border:0px;
+	border-bottom: none !important;
+}
+
+
+
+@media screen and (max-width: 500px) {
+	h4 {
+		font-size:20px;
+	}
 }
 
 

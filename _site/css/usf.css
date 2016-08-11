@@ -1,0 +1,78 @@
+.usfgreen {
+	color: #00543C
+}
+
+.usfgold {
+	color: #FDBB30
+} 
+
+.usfgrey {
+	color: #919194
+}
+
+a {
+	color: #919194
+}
+
+a:hover {
+	color: #00543C
+}
+
+
+/* http://stackoverflow.com/questions/29874274/bootstrap-table-how-to-remove-all-borders-from-table */
+.table th, .table td, .table {
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: none !important;
+}
+.fixed-table-container {
+    border:0px;
+    border-bottom: none !important;
+}
+
+
+.btn-usf { 
+	color: #00543C; 
+	background-color: #d8d8d9; 
+	border-color: #00543C; 
+} 
+
+.btn-usf:hover, 
+.btn-usf:focus, 
+.btn-usf:active, 
+.btn-usf.active, 
+.open .dropdown-toggle.btn-usf { 
+	color: #00543C; 
+	background-color: #d8d8d9; 
+	border-color: #00543C; 
+} 
+
+.btn-usf:active, 
+.btn-usf.active, 
+.open .dropdown-toggle.btn-usf { 
+	background-image: none; 
+} 
+
+.btn-usf.disabled, 
+.btn-usf[disabled], 
+fieldset[disabled] .btn-usf, 
+.btn-usf.disabled:hover, 
+.btn-usf[disabled]:hover, 
+fieldset[disabled] .btn-usf:hover, 
+.btn-usf.disabled:focus, 
+.btn-usf[disabled]:focus, 
+fieldset[disabled] .btn-usf:focus, 
+.btn-usf.disabled:active, 
+.btn-usf[disabled]:active, 
+fieldset[disabled] .btn-usf:active, 
+.btn-usf.disabled.active, 
+.btn-usf[disabled].active, 
+fieldset[disabled] .btn-usf.active { 
+	background-color: #d8d8d9; 
+	border-color: #00543C; 
+} 
+
+.btn-usf .badge { 
+	color: #d8d8d9; 
+	background-color: #00543C; 
+}
